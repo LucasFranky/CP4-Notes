@@ -1,49 +1,57 @@
-let george = 16;
-let john = ('This is what happens when george is multiplied by 1239');
-console.log(george);
-george = george * 1239;
-console.log(george);
-console.log(john);
-george = george - 21000
-
-		var expr = 'Calculus';
+	
+	var exp = 'selectClass';
 switch (expr) {
-  case 'Math.':
-    console.log('Math is hard.');
+  case 'Math':
+	selectClass = "Math"
+    console.log('Math is hard choose something else.');
     break;
   case 'English':
+	selectClass = "English"
     console.log('Go reading!');
     break;
   case 'History':
+	selectClass = "History"
     console.log('Thats old news.');
     break;
   case 'Science':
+	selectClass = "Science"
 	console.log('Lets learn about space.')
 	break;
-  case 'Th Arts':
-	console.log('Wanna become an actor?')
+  case 'ThArts':
+	selectClass = "ThArts"
+	console.log('Want to become an actor?')
 	break;
   case 'CompProg':
-	console.log('Wanna do what I just did?')
+	selectClass = "CompProg"
+	console.log('Want to know how I did this?')
 	break;
   case 'French':
-	console.log('Parle tu le francais?')
+	selectClass = "French"
+	console.log('Parles-tu le francais?')
 	break;
   case 'PhysEd':
+	selectClass = "PhysEd"
 	console.log('Lets do some exercise.')
 	break;
   case 'Speech':
+	selectClass = "Speech"
 	console.log('Lets get rid of stage fright together.')
 	break;
   case 'Homeroom':
+	selectClass = "Homeroom"
 	console.log('Bake sale or movie?')
 	break;
   case 'Advisors':
+	selectClass = "Advisors"
 	console.log('Heres some advice.')
 	break;
   case 'L.A.':
+	selectClass = "L.A."
 	console.log('Grade level meeting.')
 	break;
   default:
     console.log('Sorry, ' + expr + ' is not a course I am in.');
 }
+
+document.getElementById("Classes").value;
+var className = document.getElementById("Classes").value;
