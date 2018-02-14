@@ -1,57 +1,46 @@
-	
-	var exp = 'selectClass';
-switch (expr) {
-  case 'Math':
-	selectClass = "Math"
-    console.log('Math is hard choose something else.');
+	var selectedClass;
+	function Class() {
+	var className = document.getElementById("selectedClass").value;
+	switch (className)  {
+	case 'Math':
+	selectedClass = "Math"
     break;
   case 'English':
-	selectClass = "English"
-    console.log('Go reading!');
+	selectedClass = "English"
     break;
   case 'History':
-	selectClass = "History"
-    console.log('Thats old news.');
+	selectedClass = "History"
     break;
   case 'Science':
-	selectClass = "Science"
-	console.log('Lets learn about space.')
+	selectedClass = "Science"
 	break;
   case 'ThArts':
-	selectClass = "ThArts"
-	console.log('Want to become an actor?')
+	selectedClass = "ThArts"
 	break;
   case 'CompProg':
-	selectClass = "CompProg"
-	console.log('Want to know how I did this?')
+	selectedClass = "CompProg"
 	break;
   case 'French':
-	selectClass = "French"
-	console.log('Parles-tu le francais?')
+	selectedClass = "French"
 	break;
   case 'PhysEd':
-	selectClass = "PhysEd"
-	console.log('Lets do some exercise.')
+	selectedClass = "PhysEd"
 	break;
   case 'Speech':
-	selectClass = "Speech"
-	console.log('Lets get rid of stage fright together.')
+	selectedClass = "Speech"
 	break;
   case 'Homeroom':
-	selectClass = "Homeroom"
-	console.log('Bake sale or movie?')
+	selectedClass = "Homeroom"
 	break;
   case 'Advisors':
-	selectClass = "Advisors"
-	console.log('Heres some advice.')
+	selectedClass = "Advisors"
 	break;
   case 'L.A.':
-	selectClass = "L.A."
-	console.log('Grade level meeting.')
+	selectedClass = "L.A."
 	break;
   default:
-    console.log('Sorry, ' + expr + ' is not a course I am in.');
-}
-
-document.getElementById("Classes").value;
-var className = document.getElementById("Classes").value;
+	console.log('Not a class, sorry.');
+	}
+	var theclass = document.getElementsByClassName(selectedClass);
+					for (i=0 ; i<theclass.length ; i++) {
+						theclass[i].style.backgroundColor = "blue" ;
