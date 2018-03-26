@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <link href="schedule.css" type="text/css" rel="stylesheet">
-<script type="text/javascript" src="schedule.js"></script>
 <body>
 <table>
 
@@ -129,54 +128,69 @@
 		<td>         </td>
 	</tr>
 		
-<body>
 
-<p id="demo">DON'T CLICK ME.</p>
-
-<script>
-document.getElementById("demo").addEventListener("click", Class);
-function Class() {
-    document.getElementById("demo").innerHTML = "DO YOU NOT LISTEN?";
-}
-
-
-
-<input type="text" name="search" placeholder="Search">
-	<input type="Submit" onclick="(Stuff)" value="Search Schedule" id="search">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</script>
-</body>
+		
 		</tbody>
 		</table>
-		<form id="Something">
-			<input id="search" type="text" placeholder="Search...">
-			<input type="Submit">
-		</form>	
+			<input id="something" type="text" name="search" placeholder="Search...">
+			<input type="submit" onclick="Class()" >	
+		<script>
+			function Class() {
+	var selectedClass = document.getElementById("something").value;
+	switch (selectedClass)  {
+	case "Math":
+	selectedClass = "M"
+    break;
+  case "English":
+	selectedClass = "Eng"
+    break;
+  case "History":
+	selectedClass = "His"
+    break;
+  case "Science":
+	selectedClass = "Sci"
+	break;
+  case "ThArts":
+	selectedClass = "TA"
+	break;
+  case "CompProg":
+	selectedClass = "CP"
+	break;
+  case "French":
+	selectedClass = "Fr"
+	break;
+  case "PhysEd":
+	selectedClass = "PE"
+	break;
+  case "Speech":
+	selectedClass = "Sp"
+	break;
+  case "Homeroom":
+	selectedClass = "Hr"
+	break;
+  case "Advisors":
+	selectedClass = "Adv"
+	break;
+  case "L.A.":
+	selectedClass = "LA"
+	break;
+  default:
+	console.log('Not a class, sorry.');
+	
+		location.reload() ;
+	}
+	var saveit = document.getElementsByClassName(selectedClass);
+					for (i=0 ; i<saveit.length ; i++){
+						saveit[i].style.backgroundColor = "red" ; 
+			}
+				}
+	</script>
+		
+		
 	</body>
 </html>
+
+
 
 
 
