@@ -1,0 +1,32 @@
+th {
+	color: red;
+	font-size: 35px;
+	background-color: black;
+	font-weight: bold;
+    font-family: Arial;
+}
+tr {
+	color: red;
+	font-size: 20px;
+	background-color: black;
+	font-family: TimesNewRoman;
+	
+}
+body {
+	text-align: center;
+	display: block;
+}
+table {
+	border-style: solid;
+	border-color: blue cyan;
+	table-layout: fixed;
+}
+p {
+	color: blue;
+}
+b {
+	background-color: black;
+}
+head {
+	color: blue;
+}
