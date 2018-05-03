@@ -1,15 +1,14 @@
 th {
-	color: red;
+	color: blue;
 	font-size: 35px;
-	background-color: black;
 	font-weight: bold;
     font-family: Arial;
 }
 tr {
-	color: red;
+	color: purple;
 	font-size: 20px;
-	background-color: black;
 	font-family: TimesNewRoman;
+	font-weight: bold;
 	
 }
 body {
@@ -18,15 +17,22 @@ body {
 }
 table {
 	border-style: solid;
-	border-color: blue cyan;
+	border-color: black;
 	table-layout: fixed;
 }
 p {
-	color: blue;
+	color: black;
+	font-size: 20px;
 }
-b {
-	background-color: black;
+body {
 }
-head {
-	color: blue;
+h1 {
+	color: black;
+	font-size: 50px;
+}
+html { 
+  background: url(https://upload.wikimedia.org/wikipedia/commons/1/1c/Blue_water%2C_Lake_Tahoe.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
