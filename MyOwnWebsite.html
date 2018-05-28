@@ -6,53 +6,58 @@
 <table>
 <!--A table was created to put information in an organized way.-->
 	<table border="6">
+<div class="swing">
 <h1> Fish to Catch In Canada </h1>
+</div>
+ <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/1200px-Flag_of_Canada_%28Pantone%29.svg.png' />
 <p> Scroll down the page if you'd like to see multiple different types of fish that can be caught in Canada. They are great fish to have fun by catch and release or even eating certain ones.</p>
 	<!--The next 2 lines of code made a onclick button that says search.-->		
 			<input id="something" type="text" name="search" placeholder="Search...">
 			<input type="submit" onclick="Class()" >	
 	<tr>
+
 		<th>Fish Names</th>
 		<th>Images</th>
 		<th>More Information</th>
+	
 	</tr>
 	
 	<tbody>
 	
 	<tr>
 		<th class="W">Walleye (Pickerel)</th>
-		<td><img src="https://fishinginquebec.com/wp-content/uploads/2017/05/wall-e1494352088709.jpg" width="300px" height="200px"></td>
+		<td><img src="https://fishinginquebec.com/wp-content/uploads/2017/05/wall-e1494352088709.jpg"></td>
 		<td>If you would like any more information on this specific type of fish please click <a href="https://en.wikipedia.org/wiki/Walleye" target="_blank">Walleye!</a></td>
 	</tr>
 	
 	<tr>
 		<th class="NP">Northern Pike</th>
-		<td><img src="https://1u594u31nvw01cjgyx4gvsr15ge-wpengine.netdna-ssl.com/wp-content/blogs.dir/1/files/2013/04/Pike.jpg" width="300px" height="200px"</td>
+		<td><img src="https://1u594u31nvw01cjgyx4gvsr15ge-wpengine.netdna-ssl.com/wp-content/blogs.dir/1/files/2013/04/Pike.jpg"></td>
 		<td>If you would like any more information on this specific type of fish please click <a href="https://en.wikipedia.org/wiki/Northern_pike" target="_blank">Northern Pike!</a></td></td>
 	</tr>
 	<tr>
 		<th class="SB">Smallmouth Bass</th>
-		<td><img src="http://www.in-fisherman.com/files/2011/07/thumb-INFP-101100-SMOUTH-01.jpg" width="300px" height="200px"</td>
+		<td><img src="http://www.in-fisherman.com/files/2011/07/thumb-INFP-101100-SMOUTH-01.jpg"></td>
 		<td>If you would like any more information on this specific type of fish please click <a href="https://en.wikipedia.org/wiki/Smallmouth_bass" target="_blank">Smallmouth Bass!</a></td></td>
 	</tr>
 	<tr>
 		<th class="LB">Largemouth Bass</th>
-		<td><img src="https://fishinpedia.com/wp-content/uploads/2017/06/largemouth-bass2.jpg" width="300px" height="200px"</td>
+		<td><img src="https://fishinpedia.com/wp-content/uploads/2017/06/largemouth-bass2.jpg"></td>
 		<td>If you would like any more information on this specific type of fish please click <a href="https://en.wikipedia.org/wiki/Largemouth_bass" target="_blank">Largemouth Bass!</a></td></td>
 	</tr>
 	<tr>
 		<th class="BT">Brook Trout</th>
-		<td><img src="https://3hjaw21gh1dp10q3s228zc1y-wpengine.netdna-ssl.com/wp-content/uploads/2015/07/coaster-690x346.jpg" width="300px" height="200px"</td>
+		<td><img src="https://3hjaw21gh1dp10q3s228zc1y-wpengine.netdna-ssl.com/wp-content/uploads/2015/07/coaster-690x346.jpg"></td>
 		<td>If you would like any more information on this specific type of fish please click <a href="https://en.wikipedia.org/wiki/Brook_trout" target="_blank">Brook Trout!</a></td></td>
 	</tr>
 	<tr>
 		<th class="AC">Arctic Char</th>
-		<td><img src="https://i.imgur.com/nzkev2j.jpg" width="300px" height="200px"</td>
+		<td><img src="https://i.imgur.com/nzkev2j.jpg" width="300px"></td>
 		<td>If you would like any more information on this specific type of fish please click <a href="https://en.wikipedia.org/wiki/Arctic_char" target="_blank">Arctic Char!</a></td>
 	</tr>
 	<tr>
 		<th class="ML">Muskellunge</th>
-		<td><img src="https://ssl.c.photoshelter.com/img-get2/I0000znq06V8qVOY/fit=1000x750/Muskellunge-M-SL101.jpg" width="300px" height="200px"</td>
+		<td><img src="https://ssl.c.photoshelter.com/img-get2/I0000znq06V8qVOY/fit=1000x750/Muskellunge-M-SL101.jpg"></td>
 		<td>If you would like any more information on this specific type of fish please click <a href="https://en.wikipedia.org/wiki/Muskellunge" target="_blank">Arctic Char!</a></td>
 	
 	</tbody>
@@ -80,6 +85,9 @@
 	break;
   case "Arctic Char":
 	selectedClass = "AC"
+	break;
+	case "Muskellunge":
+	selectedClass = "ML"
 	break;
   default:
 	console.log('Not a fish in Canada.');
